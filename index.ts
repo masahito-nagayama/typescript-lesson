@@ -1,4 +1,7 @@
 let hasValue: boolean = true;
+// 型注釈という書き方
+let masahito = false;
+// 型推論という書き方 基本的には型推論を使いたい
 let count: number = 10;
 let float: number = 3.14;
 let negative: number = -0.12;
