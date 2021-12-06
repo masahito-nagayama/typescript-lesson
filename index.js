@@ -18,4 +18,15 @@ var person = {
 var fruits = ['banana', 'negi', 'goma'];
 var otousan = ['gorira', 27, false];
 // Tuple型というらしい 配列に厳しく型を制限するなら tupleを使用する。
+var CoffeeSize;
+(function (CoffeeSize) {
+    CoffeeSize["SHORT"] = "short";
+    CoffeeSize["TALL"] = "tall";
+    CoffeeSize["GRANDE"] = "grande";
+})(CoffeeSize || (CoffeeSize = {}));
+// Typescriptの列挙型 enum値を設定する場合はこのように記述する。
+var cofee = {
+    hot: true,
+    size: CoffeeSize.SHORT
+};
 console.log(person);

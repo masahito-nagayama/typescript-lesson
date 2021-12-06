@@ -21,4 +21,16 @@ const fruits: string[] = ['banana', 'negi', 'goma']
 const otousan: [string, number, boolean] = ['gorira', 27, false]
 // Tuple型というらしい 配列に厳しく型を制限するなら tupleを使用する。
 
+enum CoffeeSize {
+  SHORT = 'short',
+  TALL = 'tall',
+  GRANDE = 'grande'
+}
+// Typescriptの列挙型 enum値を設定する場合はこのように記述する。
+
+const cofee = {
+  hot: true,
+  size: CoffeeSize.SHORT
+}
+
 console.log(person);
