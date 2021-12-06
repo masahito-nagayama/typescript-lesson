@@ -8,3 +8,13 @@ let negative: number = -0.12;
 let single: string = 'hello';
 let double: string = "hello";
 let back: string = `hello`;
+
+const person = {
+  name: {
+    first: 'たけし',
+    last: 'ごろうまる'
+  },
+  age: 25
+}
+
+console.log(person);
