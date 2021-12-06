@@ -17,4 +17,8 @@ const person = {
   age: 25
 }
 
+const fruits: string[] = ['banana', 'negi', 'goma']
+const otousan: [string, number, boolean] = ['gorira', 27, false]
+// Tuple型というらしい 配列に厳しく型を制限するなら tupleを使用する。
+
 console.log(person);
