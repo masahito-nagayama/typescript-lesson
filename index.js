@@ -10,7 +10,7 @@ var double = "hello";
 var back = "hello";
 var person = {
     name: {
-        first: 'たけしさん',
+        first: 'たけし',
         last: 'ごろうまる'
     },
     age: 25
