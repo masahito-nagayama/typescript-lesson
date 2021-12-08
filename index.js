@@ -11,7 +11,7 @@ var back = "hello";
 var person = {
     name: {
         first: 'たけし',
-        last: 'ごろうまる'
+        last: 'ごろうまるさん'
     },
     age: 25
 };
